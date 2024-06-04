@@ -1301,7 +1301,7 @@ Properties Style
     transform: translateX(30px);
 	width: 10px;
 	height: 3px;
-	background-color: #504f93;
+	background-color: #184E77;
     border-radius: 3px;
 }
 
@@ -1334,7 +1334,7 @@ Properties Style
     width: 150px;
     height: 150px;
     background-color: #1E6091;
-    border: 6px solid #504f93;
+    border: 6px solid #184E77;
     border-radius: 50%;
     opacity: 0.5;
     z-index: 10;
@@ -1484,7 +1484,7 @@ Contact Style
 .contact-content .item {
   border-radius: 10px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
-  padding: 35px 30px;
+  padding: 35px 20px;
   background-color: #fff;
 }
 
@@ -1492,20 +1492,17 @@ Contact Style
   margin-right: 15px;
 }
 
-.contact-content .email {
-  margin-left: 15px;
-}
-
 .contact-content .item img {
   float: left;
-  margin-right: 25px;
+  margin-right: 10px;
   vertical-align: middle;
 }
 
 .contact-content .item h6 {
-  font-size: 18px;
-  font-weight: 400;
-  vertical-align: middle;
+    font-size: 15px;
+    padding-top: 10px;
+    font-weight: 200;
+    vertical-align: middle;
 }
 
 .contact-content .item h6 span {
@@ -1835,7 +1832,7 @@ Single Page Style
 }
 
 .single-property .main-content span.category {
-  background-color: #fbd9cf;
+  background-color: #2e7bb6;
   font-weight: 500;
   border-radius: 5px;
   font-size: 14px;
@@ -1978,7 +1975,8 @@ Contact Page Style
 }
 
 .contact-page .item h6 {
-  font-size: 18px;
+  padding-top: 10px;
+  font-size: 15px;
   font-weight: 400;
   vertical-align: middle;
 }
